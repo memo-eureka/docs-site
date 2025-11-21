@@ -87,6 +87,18 @@
             <category>Android</category>
         </item>
         <item>
+            <title><![CDATA[server-trouble]]></title>
+            <link>https://memo-eureka.github.io/docs-site/blog/2025/11/21/server-trouble</link>
+            <guid>https://memo-eureka.github.io/docs-site/blog/2025/11/21/server-trouble</guid>
+            <pubDate>Fri, 21 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[오후 10시경 갑작스레 서버 접속이 불가한 상황이 발생했습니다.]]></description>
+            <content:encoded><![CDATA[<p>오후 10시경 갑작스레 서버 접속이 불가한 상황이 발생했습니다.<br>
+<img decoding="async" loading="lazy" alt="참고 자료" src="https://memo-eureka.github.io/docs-site/assets/images/screenshot1-2dffeb23704a471c8393ffbb0cdf2c47.jpg" width="720" height="1478" class="img_ev3q"></p>
+<p>서버 로그에서 다음과 같은 메시지를 확인할 수 있었습니다.</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Public Key Retrieval is not allowed</span><br></span></code></pre></div></div>
+<p>스프링 서버에서 DB에 권한을 인증할 때 비밀번호를 DB 서버의 공개키로 암호화해야해서(MySQL Connector/J의 기본 보안 설정) 공개키를 받아야 하는데, 기본적으로는 공개키를 제공하는 것을 허용하지 않도록 되어있어서 문제가 발생했습니다. 커넥션 연결 시 공개키를 받아오도록 설정을 추가하여 해결했습니다.</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://memo-eureka.github.io/docs-site/blog/welcome</link>
             <guid>https://memo-eureka.github.io/docs-site/blog/welcome</guid>
