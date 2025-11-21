@@ -2,11 +2,95 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://memo-eureka.github.io/docs-site/blog</id>
     <title>번쩍 Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2025-11-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://memo-eureka.github.io/docs-site/blog"/>
     <subtitle>번쩍 Blog</subtitle>
     <icon>https://memo-eureka.github.io/docs-site/img/ic_launcher-playstore.png</icon>
+    <entry>
+        <title type="html"><![CDATA[문서화 도구 구축]]></title>
+        <id>https://memo-eureka.github.io/docs-site/blog/2025/11/21/documentation</id>
+        <link href="https://memo-eureka.github.io/docs-site/blog/2025/11/21/documentation"/>
+        <updated>2025-11-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[본격적인 출시를 앞두고 개발 및 배포 시스템을 지속적으로 개선할 수 있도록 문서화 도구(docusaurus)를 도입하고 기본적인 배포 파이프라인을 구축했습니다.]]></summary>
+        <content type="html"><![CDATA[<p>본격적인 출시를 앞두고 개발 및 배포 시스템을 지속적으로 개선할 수 있도록 문서화 도구(docusaurus)를 도입하고 기본적인 배포 파이프라인을 구축했습니다.</p>
+<p>main 브랜치에 변경사항을 push하면 일정 시간 후 아래 페이지에 자동으로 배포됩니다.<br>
+<a href="https://memo-eureka.github.io/docs-site/" target="_blank" rel="noopener noreferrer" class="">https://memo-eureka.github.io/docs-site/</a></p>]]></content>
+        <author>
+            <name>Doyeon Cho</name>
+        </author>
+        <category label="Documentation" term="Documentation"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[프로덕션 심사 신청]]></title>
+        <id>https://memo-eureka.github.io/docs-site/blog/2025/11/21/production-request</id>
+        <link href="https://memo-eureka.github.io/docs-site/blog/2025/11/21/production-request"/>
+        <updated>2025-11-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[프로덕션 심사 신청을 완료했습니다.]]></summary>
+        <content type="html"><![CDATA[<p>프로덕션 심사 신청을 완료했습니다.</p>
+<p>심사와 관련한 질의문답은 다음과 같이 진행했습니다.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="비공개-테스트-정보">비공개 테스트 정보<a href="https://memo-eureka.github.io/docs-site/blog/2025/11/21/production-request#%EB%B9%84%EA%B3%B5%EA%B0%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%A0%95%EB%B3%B4" class="hash-link" aria-label="Direct link to 비공개 테스트 정보" title="Direct link to 비공개 테스트 정보" translate="no">​</a></h3>
+<ol>
+<li class="">비공개 테스트에 참여할 사용자를 어떻게 모집하셨나요? 예를 들어 친구나 가족에게 부탁하셨나요? 아니면 유료 테스트 제공업체를 이용하셨나요?</li>
+</ol>
+<ul>
+<li class="">지인들(친구, 가족)에게 부탁했습니다.</li>
+</ul>
+<ol start="2">
+<li class="">앱 테스터를 얼마나 쉽게 모집했나요?</li>
+</ol>
+<ul>
+<li class="">매우 어려웠음</li>
+</ul>
+<ol start="3">
+<li class="">비공개 테스트 중 테스터의 참여도에 대해 설명해 주세요. (테스터가 앱의 모든 기능을 활용했는지, 테스터의 사용 방식이 실제 사용자에게서 예상되는 앱 사용 방식과 일치하는지 여부도 알려주세요. 일치하지 않는다면 어떤 차이가 있을 것으로 예상되는지 설명하세요.)</li>
+</ol>
+<ul>
+<li class="">실제 사용자에게서 예상되는 앱 사용 방식과 동일하게 실생활에서 앱의 기능이 필요할 때 사용하도록 요청했습니다. 테스터들은 실제 사용자보다 테스터 관점에서 더 자세히 파악했습니다.</li>
+</ul>
+<ol start="4">
+<li class="">테스터로부터 받은 의견을 요약하여 제공하세요. 의견을 수집한 방법도 알려주세요.</li>
+</ol>
+<ul>
+<li class="">테스터들이 직접 앱 사용 후 UI를 더 사용성 있게 개선할 수 있는 방법을 제안해주었고, 특정 상황에서 특정 기능에 버그가 발생하는 것을 수정해야한다고 제안해주었습니다. 카카오톡 등의 메신저를 통해 수집했습니다.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="앱-정보">앱 정보<a href="https://memo-eureka.github.io/docs-site/blog/2025/11/21/production-request#%EC%95%B1-%EC%A0%95%EB%B3%B4" class="hash-link" aria-label="Direct link to 앱 정보" title="Direct link to 앱 정보" translate="no">​</a></h3>
+<ol>
+<li class="">앱의 주요 대상은 누구인가요?</li>
+</ol>
+<ul>
+<li class="">순간적으로 떠오르는 아이디어를 바로 기록하고 싶은 사람들입니다.</li>
+</ul>
+<ol start="2">
+<li class="">앱이 사용자에게 어떤 가치를 제공하는지 설명하세요.</li>
+</ol>
+<ul>
+<li class="">유용성을 제공합니다. 순간적으로 떠오르는 아이디어를 유용하게 기록할 수 있습니다.</li>
+</ul>
+<ol start="3">
+<li class="">첫해에 앱이 몇 회 설치될 것으로 예상하시나요?</li>
+</ol>
+<ul>
+<li class="">0~1만</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="프로덕션-준비">프로덕션 준비<a href="https://memo-eureka.github.io/docs-site/blog/2025/11/21/production-request#%ED%94%84%EB%A1%9C%EB%8D%95%EC%85%98-%EC%A4%80%EB%B9%84" class="hash-link" aria-label="Direct link to 프로덕션 준비" title="Direct link to 프로덕션 준비" translate="no">​</a></h3>
+<ol>
+<li class="">비공개 테스트에서 알게 된 내용을 바탕으로 앱을 어떻게 변경했나요?</li>
+</ol>
+<ul>
+<li class="">비정상 종료, ANR은 구글 콘솔로 확인하여 수정했고, 기타 버그는 테스터들의 피드백을 통해 수정했습니다.</li>
+</ul>
+<ol start="2">
+<li class="">앱이 프로덕션용으로 준비되었다고 어떻게 판단했나요?</li>
+</ol>
+<ul>
+<li class="">테스트 기간 동안 테스터들의 사용성을 모니터링하면서 진행했습니다.</li>
+</ul>]]></content>
+        <author>
+            <name>Doyeon Cho</name>
+        </author>
+        <category label="Android" term="Android"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://memo-eureka.github.io/docs-site/blog/welcome</id>
