@@ -24,6 +24,22 @@
         <category label="Documentation" term="Documentation"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[animation]]></title>
+        <id>https://memo-eureka.github.io/docs-site/blog/2025/11/22/animation</id>
+        <link href="https://memo-eureka.github.io/docs-site/blog/2025/11/22/animation"/>
+        <updated>2025-11-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[번쩍 애니메이션 아이디어입니다.]]></summary>
+        <content type="html"><![CDATA[<p>번쩍 애니메이션 아이디어입니다.
+번쩍의 로고인 번개모양 느낌표는 6개의 직각 삼각형으로 이루어져있습니다.
+이 직각 삼각형들이 흩어졌다가 합쳐지면서 로고 모양으로 변하여 아이디어가 번쩍 떠오르는 걸 연상하는 애니메이션을 구상하고 있습니다.</p>
+<p>피그마를 사용하여 제작할 수 있을 것 같습니다.</p>
+<p>아래와 같이, 프레임에 도형을 만들고, 프레임 아래 + 버튼을 드래그하여 다른 프레임에 연결하면 애니메이션을 설정할 수 있습니다.
+<a href="https://memo-eureka.github.io/docs-site/assets/files/screenshot1-549d9b323a07e561bcb6e636fa17c528.jpg" target="_blank" class="">피그마 화면</a></p>
+<p>아래는 Animation 속성을 Smart animate, Curve를 Gentle, Duration을 800ms로 설정한 예시입니다.
+흔들리는 효과는 Curve에 Bouncy를 사용하였습니다.
+<a href="https://memo-eureka.github.io/docs-site/assets/files/gif1-77d903e5c6f3b2276e029c8427cd2335.gif" target="_blank" class="">애니메이션</a></p>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[문서화 도구 구축]]></title>
         <id>https://memo-eureka.github.io/docs-site/blog/2025/11/21/documentation</id>
         <link href="https://memo-eureka.github.io/docs-site/blog/2025/11/21/documentation"/>
