@@ -5,8 +5,8 @@
 피그마를 사용하여 제작할 수 있을 것 같습니다.
 
 아래와 같이, 프레임에 도형을 만들고, 프레임 아래 + 버튼을 드래그하여 다른 프레임에 연결하면 애니메이션을 설정할 수 있습니다.
-[피그마 화면](screenshot1.jpg)
+![피그마 화면](./screenshot1.jpg)
 
 아래는 Animation 속성을 Smart animate, Curve를 Gentle, Duration을 800ms로 설정한 예시입니다.
 흔들리는 효과는 Curve에 Bouncy를 사용하였습니다.
-[애니메이션](gif1.gif)
+![애니메이션](./gif1.gif)
