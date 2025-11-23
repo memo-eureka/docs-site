@@ -22,7 +22,7 @@
             <category>Documentation</category>
         </item>
         <item>
-            <title><![CDATA[animation]]></title>
+            <title><![CDATA[번쩍 애니메이션 아이디어]]></title>
             <link>https://memo-eureka.github.io/docs-site/blog/2025/11/22/animation</link>
             <guid>https://memo-eureka.github.io/docs-site/blog/2025/11/22/animation</guid>
             <pubDate>Sat, 22 Nov 2025 00:00:00 GMT</pubDate>
@@ -32,10 +32,17 @@
 이 직각 삼각형들이 흩어졌다가 합쳐지면서 로고 모양으로 변하여 아이디어가 번쩍 떠오르는 걸 연상하는 애니메이션을 구상하고 있습니다.</p>
 <p>앱 소개 페이지 첫 부분과 앱 시작 애니메이션으로 적용 예정이며 피그마를 사용하여 제작할 수 있을 것 같습니다.</p>
 <p>아래와 같이, 프레임에 도형을 만들고, 프레임 아래 + 버튼을 드래그하여 다른 프레임에 연결하면 애니메이션을 설정할 수 있습니다.
-<img decoding="async" loading="lazy" alt="피그마 화면" src="https://memo-eureka.github.io/docs-site/assets/images/screenshot1-549d9b323a07e561bcb6e636fa17c528.jpg" width="1662" height="450" class="img_ev3q"></p>
+<img decoding="async" loading="lazy" alt="피그마 화면1" src="https://memo-eureka.github.io/docs-site/assets/images/screenshot1-549d9b323a07e561bcb6e636fa17c528.jpg" width="1662" height="450" class="img_ev3q"></p>
 <p>아래는 Animation 속성을 Smart animate, Curve를 Gentle, Duration을 800ms로 설정한 예시입니다.
 흔들리는 효과는 Curve에 Bouncy를 사용하였습니다.
-<img decoding="async" loading="lazy" alt="애니메이션" src="https://memo-eureka.github.io/docs-site/assets/images/gif1-77d903e5c6f3b2276e029c8427cd2335.gif" width="1014" height="572" class="img_ev3q"></p>]]></content:encoded>
+<img decoding="async" loading="lazy" alt="애니메이션" src="https://memo-eureka.github.io/docs-site/assets/images/gif1-77d903e5c6f3b2276e029c8427cd2335.gif" width="1014" height="572" class="img_ev3q"></p>
+<p>간단하게 흩어졌다가 합쳐지는 방식으로 적용해보았습니다.
+<img decoding="async" loading="lazy" alt="피그마 화면2" src="https://memo-eureka.github.io/docs-site/assets/images/screenshot2-765a9122fe06fb0a12b3659db81a32c4.png" width="355" height="539" class="img_ev3q"></p>
+<p>홈페이지에 다음과 같이 적용했습니다.
+다만 PPT를 영상으로 캡쳐하고 gif로 변환하는 방식이다보니 애니메이션이나 색감이 매끄럽지 않은 문제가 있습니다.
+<img decoding="async" loading="lazy" alt="홈페이지 화면1" src="https://memo-eureka.github.io/docs-site/assets/images/screenshot3-8ceb0e126d95ce4f17244381e7c3eaad.png" width="1919" height="949" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="홈페이지 화면2" src="https://memo-eureka.github.io/docs-site/assets/images/screenshot4-34286ed78861860fcb1096626ed2252d.png" width="1915" height="946" class="img_ev3q"></p>]]></content:encoded>
+            <category>Design</category>
         </item>
         <item>
             <title><![CDATA[문서화 도구 구축]]></title>
