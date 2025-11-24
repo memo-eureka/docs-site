@@ -45,11 +45,11 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="번쩍 웹페이지입니다.">
       <HomepageHeader />
       <main>
-        {/* <HomepageFeatures /> */}
+        {/*<HomepageFeatures />*/}
       </main>
     </Layout>
   );
