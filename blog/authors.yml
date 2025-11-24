@@ -27,5 +27,6 @@ slorber:
 doyen:
   name: Doyeon Cho
   title: Software Engineer
+  image_url: https://github.com/devdoyen.png
   socials:
     github: devdoyen
