@@ -2,11 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://memo-eureka.github.io/docs-site/blog</id>
     <title>번쩍 Blog</title>
-    <updated>2025-11-22T00:00:00.000Z</updated>
+    <updated>2025-11-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://memo-eureka.github.io/docs-site/blog"/>
     <subtitle>번쩍 Blog</subtitle>
     <icon>https://memo-eureka.github.io/docs-site/img/ic_launcher-playstore.png</icon>
+    <entry>
+        <title type="html"><![CDATA[플로팅 버튼 UI 개선]]></title>
+        <id>https://memo-eureka.github.io/docs-site/blog/2025/11/24/FB</id>
+        <link href="https://memo-eureka.github.io/docs-site/blog/2025/11/24/FB"/>
+        <updated>2025-11-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[현재 번쩍의 아이디어 입력 플로팅 버튼은 우측 상단에 고정되어있습니다.]]></summary>
+        <content type="html"><![CDATA[<p>현재 번쩍의 아이디어 입력 플로팅 버튼은 우측 상단에 고정되어있습니다.</p>
+<p>이로 인해 사용자가 다른 서비스를 이용할 때 불편함을 겪을 수 있으므로, 버튼을 원하는 위치(좌/우 가장자리 한정)로 이동시킬 수 있게끔 개선하고자 합니다.</p>
+<p>먼저 오른쪽에 고정된 상태로, 길게 눌렀을 때 상하로 이동 가능하게 구현해보겠습니다.</p>
+<p>플로팅 버튼에는 총 3가지 이벤트에 대한 리스너가 등록됩니다.</p>
+<ol>
+<li class="">클릭 이벤트 (입력 창을 표시하기 위함)</li>
+<li class="">롱클릭 이벤트 (위치 조정 시작을 위함)</li>
+<li class="">터치 이벤트 (위치 감지 및 재설정을 위함)</li>
+</ol>
+<p>플로팅 버튼을 길게 누르면 상하로 드래그하여 위치를 조정할 수 있습니다.
+<img decoding="async" loading="lazy" alt="데모1" src="https://memo-eureka.github.io/docs-site/assets/images/demo1-969e48679646fefbaa2236b5cc299af1.gif" width="426" height="240" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Doyeon Cho</name>
+        </author>
+        <category label="Android" term="Android"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[클라이언트-서버 동기화 아이디어]]></title>
         <id>https://memo-eureka.github.io/docs-site/blog/2025/11/22/offline-online-sync-idea</id>
