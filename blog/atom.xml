@@ -30,6 +30,23 @@
         <category label="Android" term="Android"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[문서화 도구 구축]]></title>
+        <id>https://memo-eureka.github.io/docs-site/blog/2025/11/23/production-upload</id>
+        <link href="https://memo-eureka.github.io/docs-site/blog/2025/11/23/production-upload"/>
+        <updated>2025-11-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[오늘부터 프로덕션 버전을 게시해보려합니다.]]></summary>
+        <content type="html"><![CDATA[<p>오늘부터 프로덕션 버전을 게시해보려합니다.</p>
+<p>게시한 뒤 직접 사용해보며, 또한 사용자의 피드백을 받아서 부족한 부분을 개선해나가면 좋을 것 같습니다.</p>
+<p>우선 첫 번째 업로드 시도는 실패했습니다.</p>
+<p>사유는 다음과 같습니다. [Play Console 요구사항: Play Console 요구사항 위반]
+로그인 기능이 포함되어 액세스가 제한되나, 접근 가능한 계정을 제공하지 않아 반려되었습니다.</p>
+<p>google에서 테스트할 수 있는 계정을 만들어서 등록하여 다시 시도했습니다.</p>]]></content>
+        <author>
+            <name>Doyeon Cho</name>
+        </author>
+        <category label="Documentation" term="Documentation"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[클라이언트-서버 동기화 아이디어]]></title>
         <id>https://memo-eureka.github.io/docs-site/blog/2025/11/22/offline-online-sync-idea</id>
         <link href="https://memo-eureka.github.io/docs-site/blog/2025/11/22/offline-online-sync-idea"/>
@@ -60,12 +77,19 @@
 <p>아래는 Animation 속성을 Smart animate, Curve를 Gentle, Duration을 800ms로 설정한 예시입니다.
 흔들리는 효과는 Curve에 Bouncy를 사용하였습니다.
 <img decoding="async" loading="lazy" alt="애니메이션" src="https://memo-eureka.github.io/docs-site/assets/images/gif1-77d903e5c6f3b2276e029c8427cd2335.gif" width="1014" height="572" class="img_ev3q"></p>
-<p>간단하게 흩어졌다가 합쳐지는 방식으로 적용해보았습니다.
+<p>간단하게 흩어졌다가 합쳐지는 방식으로 적용해보았습니다.<br>
 <img decoding="async" loading="lazy" alt="피그마 화면2" src="https://memo-eureka.github.io/docs-site/assets/images/screenshot2-765a9122fe06fb0a12b3659db81a32c4.png" width="355" height="539" class="img_ev3q"></p>
 <p>홈페이지에 다음과 같이 적용했습니다.
 다만 PPT를 영상으로 캡쳐하고 gif로 변환하는 방식이다보니 애니메이션이나 색감이 매끄럽지 않은 문제가 있습니다.
 <img decoding="async" loading="lazy" alt="홈페이지 화면1" src="https://memo-eureka.github.io/docs-site/assets/images/screenshot3-8ceb0e126d95ce4f17244381e7c3eaad.png" width="1919" height="949" class="img_ev3q">
-<img decoding="async" loading="lazy" alt="홈페이지 화면2" src="https://memo-eureka.github.io/docs-site/assets/images/screenshot4-34286ed78861860fcb1096626ed2252d.png" width="1915" height="946" class="img_ev3q"></p>]]></content>
+<img decoding="async" loading="lazy" alt="홈페이지 화면2" src="https://memo-eureka.github.io/docs-site/assets/images/screenshot4-34286ed78861860fcb1096626ed2252d.png" width="1915" height="946" class="img_ev3q"></p>
+<p>이를 해결하기 위해, 웹에서 CSS로 애니메이션을 구현하는 방법을 생각해보았는데요, 그러면 앱 런치 화면에서는 사용할 수가 없는 문제가 있었습니다.
+따라서 lottie 라는 도구를 이용해서 애니메이션을 구성한 뒤, json 파일로 출력하여 라이브러리로 렌더링하는 방식을 적용해보려합니다.
+<a href="https://lottiefiles.com/kr/lottie-creator" target="_blank" rel="noopener noreferrer" class="">제작 도구 링크</a></p>
+<p>다음과 같이 애니메이션을 만들었습니다.
+<img decoding="async" loading="lazy" alt="제작 화면" src="https://memo-eureka.github.io/docs-site/assets/images/gif2-050cdb28f86cd874e0d787d1f47410af.gif" width="1914" height="990" class="img_ev3q"></p>
+<p>웹에 적용한 모습입니다.<br>
+<img decoding="async" loading="lazy" alt="웹 페이지" src="https://memo-eureka.github.io/docs-site/assets/images/gif3-318781d06ebfe5f99ae47bf02fcf7bea.gif" width="1916" height="990" class="img_ev3q"></p>]]></content>
         <author>
             <name>Doyeon Cho</name>
         </author>
