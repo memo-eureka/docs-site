@@ -30,7 +30,7 @@
         <category label="Android" term="Android"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[문서화 도구 구축]]></title>
+        <title type="html"><![CDATA[프로덕션 버전 게시]]></title>
         <id>https://memo-eureka.github.io/docs-site/blog/2025/11/23/production-upload</id>
         <link href="https://memo-eureka.github.io/docs-site/blog/2025/11/23/production-upload"/>
         <updated>2025-11-23T00:00:00.000Z</updated>
@@ -44,7 +44,7 @@
         <author>
             <name>Doyeon Cho</name>
         </author>
-        <category label="Documentation" term="Documentation"/>
+        <category label="Android" term="Android"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[클라이언트-서버 동기화 아이디어]]></title>

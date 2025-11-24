@@ -28,7 +28,7 @@
             <category>Android</category>
         </item>
         <item>
-            <title><![CDATA[문서화 도구 구축]]></title>
+            <title><![CDATA[프로덕션 버전 게시]]></title>
             <link>https://memo-eureka.github.io/docs-site/blog/2025/11/23/production-upload</link>
             <guid>https://memo-eureka.github.io/docs-site/blog/2025/11/23/production-upload</guid>
             <pubDate>Sun, 23 Nov 2025 00:00:00 GMT</pubDate>
@@ -39,7 +39,7 @@
 <p>사유는 다음과 같습니다. [Play Console 요구사항: Play Console 요구사항 위반]
 로그인 기능이 포함되어 액세스가 제한되나, 접근 가능한 계정을 제공하지 않아 반려되었습니다.</p>
 <p>google에서 테스트할 수 있는 계정을 만들어서 등록하여 다시 시도했습니다.</p>]]></content:encoded>
-            <category>Documentation</category>
+            <category>Android</category>
         </item>
         <item>
             <title><![CDATA[클라이언트-서버 동기화 아이디어]]></title>
