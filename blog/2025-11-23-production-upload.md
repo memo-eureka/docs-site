@@ -1,7 +1,7 @@
 ---
-title: 문서화 도구 구축
+title: 프로덕션 버전 게시
 authors: [doyen]
-tags: [Documentation]
+tags: [Android]
 ---
 
 오늘부터 프로덕션 버전을 게시해보려합니다.
