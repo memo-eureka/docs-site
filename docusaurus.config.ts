@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: '번쩍',
-  tagline: '떠오르는 아이디어를 기록하세요.',
+  tagline: '번쩍, 떠오르는 아이디어를 기록하세요.',
   favicon: 'img/ic_launcher-playstore.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
