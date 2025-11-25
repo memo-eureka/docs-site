@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://memo-eureka.github.io/docs-site/blog</id>
     <title>번쩍 Blog</title>
-    <updated>2025-11-24T00:00:00.000Z</updated>
+    <updated>2025-11-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://memo-eureka.github.io/docs-site/blog"/>
     <subtitle>번쩍 Blog</subtitle>
     <icon>https://memo-eureka.github.io/docs-site/img/ic_launcher-playstore.png</icon>
+    <entry>
+        <title type="html"><![CDATA[AI 기능 아이디어]]></title>
+        <id>https://memo-eureka.github.io/docs-site/blog/2025/11/25/AI</id>
+        <link href="https://memo-eureka.github.io/docs-site/blog/2025/11/25/AI"/>
+        <updated>2025-11-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[오늘의 아이디어 요약 기능]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="오늘의-아이디어-요약-기능">오늘의 아이디어 요약 기능<a href="https://memo-eureka.github.io/docs-site/blog/2025/11/25/AI#%EC%98%A4%EB%8A%98%EC%9D%98-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4-%EC%9A%94%EC%95%BD-%EA%B8%B0%EB%8A%A5" class="hash-link" aria-label="Direct link to 오늘의 아이디어 요약 기능" title="Direct link to 오늘의 아이디어 요약 기능" translate="no">​</a></h3>
+<p>서버에서 일정 시간에 사용자들이 오늘 기록한 글로 LLM API에 요청을 해서 받은 응답을 알림으로 보냅니다.</p>]]></content>
+        <author>
+            <name>Doyeon Cho</name>
+        </author>
+        <category label="AI" term="AI"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[플로팅 버튼 UI 개선]]></title>
         <id>https://memo-eureka.github.io/docs-site/blog/2025/11/24/FB</id>

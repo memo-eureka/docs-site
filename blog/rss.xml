@@ -4,10 +4,20 @@
         <title>번쩍 Blog</title>
         <link>https://memo-eureka.github.io/docs-site/blog</link>
         <description>번쩍 Blog</description>
-        <lastBuildDate>Mon, 24 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Nov 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[AI 기능 아이디어]]></title>
+            <link>https://memo-eureka.github.io/docs-site/blog/2025/11/25/AI</link>
+            <guid>https://memo-eureka.github.io/docs-site/blog/2025/11/25/AI</guid>
+            <pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[오늘의 아이디어 요약 기능]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="오늘의-아이디어-요약-기능">오늘의 아이디어 요약 기능<a href="https://memo-eureka.github.io/docs-site/blog/2025/11/25/AI#%EC%98%A4%EB%8A%98%EC%9D%98-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4-%EC%9A%94%EC%95%BD-%EA%B8%B0%EB%8A%A5" class="hash-link" aria-label="Direct link to 오늘의 아이디어 요약 기능" title="Direct link to 오늘의 아이디어 요약 기능" translate="no">​</a></h3>
+<p>서버에서 일정 시간에 사용자들이 오늘 기록한 글로 LLM API에 요청을 해서 받은 응답을 알림으로 보냅니다.</p>]]></content:encoded>
+            <category>AI</category>
+        </item>
         <item>
             <title><![CDATA[플로팅 버튼 UI 개선]]></title>
             <link>https://memo-eureka.github.io/docs-site/blog/2025/11/24/FB</link>
