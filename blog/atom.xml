@@ -21,6 +21,56 @@
         <category label="AI" term="AI"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[배포 작업 개선]]></title>
+        <id>https://memo-eureka.github.io/docs-site/blog/2025/11/25/deploy</id>
+        <link href="https://memo-eureka.github.io/docs-site/blog/2025/11/25/deploy"/>
+        <updated>2025-11-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[기존 배포 방식은 다음과 같습니다.]]></summary>
+        <content type="html"><![CDATA[<p>기존 배포 방식은 다음과 같습니다.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="서버">서버<a href="https://memo-eureka.github.io/docs-site/blog/2025/11/25/deploy#%EC%84%9C%EB%B2%84" class="hash-link" aria-label="Direct link to 서버" title="Direct link to 서버" translate="no">​</a></h3>
+<ol>
+<li class="">
+<p>코드 수정
+업데이트할 내용에 따른 코드를 수정합니다.</p>
+</li>
+<li class="">
+<p>jar 파일 생성
+수정된 코드를 기반으로 jar 파일을 빌드합니다.</p>
+</li>
+<li class="">
+<p>jar 파일 전송
+서버에 jar 파일을 전송합니다.</p>
+</li>
+<li class="">
+<p>jar 파일 실행
+서버에서 jar 파일을 실행합니다.</p>
+</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="안드로이드">안드로이드<a href="https://memo-eureka.github.io/docs-site/blog/2025/11/25/deploy#%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C" class="hash-link" aria-label="Direct link to 안드로이드" title="Direct link to 안드로이드" translate="no">​</a></h3>
+<ol>
+<li class="">
+<p>코드 수정
+업데이트할 내용에 따른 코드를 수정합니다.</p>
+</li>
+<li class="">
+<p>버전 변경
+버전을 변경합니다.</p>
+</li>
+<li class="">
+<p>aab 파일 생성
+수정된 코드를 기반으로 aab 파일을 빌드합니다.</p>
+</li>
+<li class="">
+<p>버전 배포
+빌드된 aab 파일로 콘솔에서 새로운 버전을 배포합니다.</p>
+</li>
+</ol>]]></content>
+        <author>
+            <name>Doyeon Cho</name>
+        </author>
+        <category label="CI/CD" term="CI/CD"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[플로팅 버튼 UI 개선]]></title>
         <id>https://memo-eureka.github.io/docs-site/blog/2025/11/24/FB</id>
         <link href="https://memo-eureka.github.io/docs-site/blog/2025/11/24/FB"/>
