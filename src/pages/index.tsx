@@ -36,6 +36,16 @@ function HomepageHeader() {
           />
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+
+       {/* Google Play 배지 */}
+        <a href="https://play.google.com/store/apps/details?id=com.devdoyen.eureka_compose">
+          <img
+            src="img/google-play-badge.png" // 프로젝트 static 폴더 안에 배지 이미지 넣기
+            alt="Google Play"
+            style={{ height: '100px', marginRight: '12px' }}
+          />
+        </a>
+
       </div>
     </header>
   );
