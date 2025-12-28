@@ -40,7 +40,11 @@ API-KEY 자리에 <a href="https://platform.openai.com/settings/organization/api
             <pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[오늘의 아이디어 요약 기능]]></description>
             <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="오늘의-아이디어-요약-기능">오늘의 아이디어 요약 기능<a href="https://memo-eureka.github.io/docs-site/blog/2025/11/25/AI#%EC%98%A4%EB%8A%98%EC%9D%98-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4-%EC%9A%94%EC%95%BD-%EA%B8%B0%EB%8A%A5" class="hash-link" aria-label="Direct link to 오늘의 아이디어 요약 기능" title="Direct link to 오늘의 아이디어 요약 기능" translate="no">​</a></h3>
-<p>서버에서 일정 시간에 사용자들이 오늘 기록한 글로 LLM API에 요청을 해서 받은 응답을 알림으로 보냅니다.</p>]]></content:encoded>
+<p>서버에서 일정 시간에 사용자들이 오늘 기록한 글로 LLM API에 요청을 해서 받은 응답을 알림으로 보냅니다.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ai-검색-기능">AI 검색 기능<a href="https://memo-eureka.github.io/docs-site/blog/2025/11/25/AI#ai-%EA%B2%80%EC%83%89-%EA%B8%B0%EB%8A%A5" class="hash-link" aria-label="Direct link to AI 검색 기능" title="Direct link to AI 검색 기능" translate="no">​</a></h3>
+<p>번쩍은 떠오르는 것을 바로 입력할 수 있는 장점을 가진 서비스입니다.
+입력된 내용을 기반으로 학습된(RAG) AI가 정리해서 응답해주면 어떨까요?
+예를 들어 요즘 내 감정은 어떤 것 같아? 라는 질문에 대해 이전에 입력했던 아이디어들을 기반으로 응답해주는 겁니다.</p>]]></content:encoded>
             <category>AI</category>
         </item>
         <item>
